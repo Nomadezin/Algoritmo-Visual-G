@@ -1,0 +1,23 @@
+Algoritmo "bloco3--exercicio17"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia dois n�meros e mostre o maior. Se forem iguais, informem essa situa��o.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero1,numero2 : real
+Inicio
+      escreval("Insira o primeiro n�mero:")
+      leia(numero1)
+      escreval("Insira o segundo n�mero:")
+      leia(numero2)
+      se (numero1=numero2) entao
+         escreval("Os n�mero s�o iguais.")
+      fimse
+      se (numero1>numero2) entao
+         escreval("Os n�mero",numero1, " � maior que o n�mero", numero2)
+      fimse
+      se (numero1<numero2) entao
+         escreval("Os n�mero",numero2, " � maior que o n�mero", numero1)
+      fimse
+Fimalgoritmo
