@@ -1,0 +1,21 @@
+Algoritmo "bloco3--exercicio16"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia a idade e informe se a pessoa pode votar: entre 16 e 17 anos ou a partir de 18 anos.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   idade : inteiro
+Inicio
+      escreval("Insira sua idade:")
+      leia(idade)
+      se (idade<16) entao
+         escreval("N�o pode votar.")
+      fimse
+      se (idade>=16) e (idade<=17) entao
+         escreval("Pode votar se quiser.")
+      fimse
+      se (idade>=18) entao
+         escreval("Tem obriga��o de votar.")
+      fimse
+Fimalgoritmo
