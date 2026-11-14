@@ -1,0 +1,24 @@
+Algoritmo "bloco4--exercicio19"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia tr�s n�meros diferentes e mostre o maior.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero1,numero2,numero3 : real
+Inicio
+      leia(numero1)
+      leia(numero2)
+      leia(numero3)
+      se (numero1>numero2) e (numero1>3) entao
+         escreval("O maior n�mero � o", numero1)
+      senao
+           se (numero2>numero1) e (numero2>3) entao
+                       escreval("O maior n�mero � o", numero2)
+           senao
+                se (numero3>numero2) e (numero3>1) entao
+                   escreval("O maior n�mero � o", numero3)
+                fimse
+           fimse
+      fimse
+Fimalgoritmo
