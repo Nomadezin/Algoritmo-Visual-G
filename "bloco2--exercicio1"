@@ -2,8 +2,8 @@ Algoritmo "bloco2--exercicio1"
 // Disciplina   : [Linguagem e L�gica de Programa��o]
 // Professor   : Gabriel Sena
 // Descri��o   : Leia o sal�rio e o percentual de reajuste. Mostre o novo sal�rio.
-// Autor(a)    : Alex Perciliano de Jesus
-// Data atual  : 02/11/2026
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
 Var
    salario,ajuste : real
 Inicio
