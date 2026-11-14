@@ -1,0 +1,15 @@
+Algoritmo "bloco5--exercicio25"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Mostre os n�meros de 1 a 10 usando para.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   i : inteiro
+Inicio
+      para i de 1 ate 10 faca
+           escreval(i)
+      fimpara
+
+
+Fimalgoritmo
