@@ -1,0 +1,17 @@
+Algoritmo "bloco5--exercicio27"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia 10 n�meros e mostre a soma deles.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero,i,soma : inteiro
+Inicio
+      soma <- 0
+      escreval("Insira dez valores para serem somados")
+      para i de 1 ate 10 faca
+           leia(numero)
+           soma <- soma+numero
+      fimpara
+      escreval(soma)
+Fimalgoritmo
