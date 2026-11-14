@@ -1,0 +1,18 @@
+Algoritmo "bloco2--exercicio5"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia tres notas e calcule a media aritmetica.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   nota1,nota2,nota3,media : real
+Inicio
+      escreval("Insira a primeira nota: ")
+      leia(nota1)
+      escreval("Insira a segunda nota: ")
+      leia(nota2)
+      escreval("Insira a terceira nota: ")
+      leia(nota3)
+      media <- (nota1+nota2+nota3)/3
+      escreval("Sua m�dia �:", media)
+Fimalgoritmo
