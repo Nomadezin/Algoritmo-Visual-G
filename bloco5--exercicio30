@@ -1,0 +1,22 @@
+Algoritmo "bloco5--exercicio30"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia n�meros at� que seja digitado 0. Ao final, informe a soma dos valores digitados.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero,i,soma : inteiro
+Inicio
+      soma<-0
+      escreval("Insira valores para ser somado, digite 0 para sair")
+      para i de 1 ate 1000000000 faca
+      //como faltei na aula, n�o sei se � liberado eu usar o while
+      //no bloco 6 eu utilizo, por enquanto vou ficar no for
+           leia(numero)
+           se (numero=0) entao
+              interrompa
+           fimse
+           soma<-soma+numero
+      fimpara
+      escreval("A soma dos valores �", soma)
+Fimalgoritmo
