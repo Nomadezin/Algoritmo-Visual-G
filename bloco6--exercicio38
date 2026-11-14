@@ -1,0 +1,23 @@
+Algoritmo "bloco6--exercicio38"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia um n�mero inteiro e diga se ele � primo.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero,i,divisores : inteiro
+Inicio
+      escreval("Insira um n�mero para saber se ele � primo")
+      leia(numero)
+      para i de 1 ate numero faca
+           se (numero%i=0) entao
+              divisores<-divisores+1
+              escreval(i)
+           fimse
+      fimpara
+      se (divisores<3) e (numero<>1) entao
+         escreval("� primo")
+      senao
+           escreval("N�o � primo")
+      fimse
+Fimalgoritmo
