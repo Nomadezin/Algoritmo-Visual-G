@@ -1,0 +1,19 @@
+Algoritmo "bloco5--exercicio29"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia 5 notas e calcule a m�dia da turma.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   notas,i,soma: inteiro
+   media: real
+Inicio
+      soma<-0
+      escreval("Insira as cinco notas da turma")
+      para i de 1 ate 5 faca
+           leia(notas)
+           soma <- soma+notas
+      fimpara
+      media <- soma/5
+      escreval("A m�dia da turma �", media)
+Fimalgoritmo
