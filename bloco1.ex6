@@ -1,0 +1,14 @@
+Algoritmo "bloco1--exercicio6"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia a temperatura em Celsius e converta para Fahrenheit.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   celsius,conversao : real
+Inicio
+      escreval("Insira a temperatura em Celcius para ser convertida em Fahrenheit: ")
+      leia(celsius)
+      conversao <- (celsius*1.8)+32
+      escreval(celsius, " em Fahrenheit �", conversao)
+Fimalgoritmo
