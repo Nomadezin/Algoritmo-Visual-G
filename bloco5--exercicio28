@@ -1,0 +1,19 @@
+Algoritmo "bloco5--exercicio28"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia 10 n�meros e informe quantos s�o positivos.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero,i,positivos : inteiro
+Inicio
+      escreval("Insira 10 n�meros")
+      positivos <- 0
+      para i de 1 ate 10 faca
+           leia(numero)
+           se (numero<0) entao
+              positivos <- positivos+1
+           fimse
+      fimpara
+      escreval("O total de n�meros positivos s�o", positivos)
+Fimalgoritmo
