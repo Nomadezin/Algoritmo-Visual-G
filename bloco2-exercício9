@@ -1,0 +1,17 @@
+Algoritmo "bloco2-exercício9"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia o valor de um produto e o percentual de desconto. Mostre desconto e pre�o final.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   produto,desconto : real
+Inicio
+      escreval("Insira o valor do produto: ")
+      leia(produto)
+      escreval("Insira o valor do desconto: ")
+      leia(desconto)
+      desconto <- produto*(desconto/100)
+      produto <- produto-desconto
+      escreval("O valor final do produto com o desconto de", desconto, "% �", produto)
+Fimalgoritmo
