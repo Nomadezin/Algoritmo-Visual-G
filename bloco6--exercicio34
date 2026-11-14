@@ -1,0 +1,26 @@
+Algoritmo "bloco6--exercicio34"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia uma senha e permita no m�ximo tr�s tentativas para acertar a senha 2026.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   codigo,senha,tentativa : inteiro
+Inicio
+      tentativa<-0
+      senha<-2026
+      escreval("Insira a senha")
+      enquanto (tentativa<3) faca
+               leia(codigo)
+               se (codigo<>senha) entao
+                  escreval("Senha incorreta, tente novamente")
+               senao
+                    escreval("Senha correta!")
+                    interrompa
+               fimse
+               tentativa<-tentativa+1
+      fimenquanto
+      se (tentativa=3) entao
+         escreval("Fim das tentativas!")
+      fimse
+Fimalgoritmo
