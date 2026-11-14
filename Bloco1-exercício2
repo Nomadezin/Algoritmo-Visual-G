@@ -1,0 +1,18 @@
+Algoritmo "bloco1--exercicio2"
+// Disciplina   : [Linguagem e L gica de Programa  o]
+// Professor   : Gabriel Sena
+// Descri  o   : Leia dois n meros reais e mostre a subtra  o do primeiro pelo segundo
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero1,numero2,subtracao : inteiro
+Inicio
+      escreval("Calculadora de subtra  o simples")
+      escreval("---------------------------")
+      escreval("Insira o primeiro n mero: ")
+      leia(numero1)
+      escreval("Insira o segundo n mero: ")
+      leia(numero2)
+      subtracao <- numero1-numero2
+      escreval(subtracao)
+Fimalgoritmo
