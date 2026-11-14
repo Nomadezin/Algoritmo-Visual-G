@@ -1,0 +1,15 @@
+Algoritmo "bloco2--exercicio3"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia a quantidade de dias e apresente o equivalente em semanas inteiras e dias restantes.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   dias,semana,resto : inteiro
+Inicio
+      escreval("Insira o n�mero de dias para converter em semanas:")
+      leia(dias)
+      semana <- dias\7
+      resto <- dias%7
+      escreval(dias, " dias em semanas �", semana, " semana(s) com sobra de", resto, " dias.")
+Fimalgoritmo
