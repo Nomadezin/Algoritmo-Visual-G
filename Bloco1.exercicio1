@@ -1,0 +1,17 @@
+Algoritmo "bloco1--exercicio4"
+// Disciplina   : [Linguagem e L gica de Programa  o]
+// Professor   : Gabriel Sena
+// Descri  o   : Leia o sal rio e o percentual de reajuste. Mostre o novo sal rio.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   salario,ajuste : real
+Inicio
+      escreval("Insira o valor do produto: ")
+      leia(salario)
+      escreval("Insira o valor do desconto: ")
+      leia(ajuste)
+      ajuste <- salario*(ajuste/100)
+      salario <- salario+ajuste
+      escreval("O novo salario com o reajuste  ", salario)
+Fimalgoritmo
