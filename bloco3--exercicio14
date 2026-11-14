@@ -1,0 +1,21 @@
+Algoritmo "bloco3--exercicio14"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia um n�mero e informe se ele � positivo, negativo ou zero.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero : inteiro
+Inicio
+      escreval("Insira um n�mero:")
+      leia(numero)
+      se (numero=0) entao
+         escreval("O n�mero � zero")
+      fimse
+      se (numero<0) entao
+           escreval("O n�mero", numero, " � negativo.")
+      fimse
+      se (numero>0) entao
+           escreval("O n�mero", numero, " � positivo.")
+      fimse
+Fimalgoritmo
