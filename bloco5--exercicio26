@@ -1,0 +1,17 @@
+Algoritmo "bloco5--exercicio26"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia um n�mero N e mostre a tabuada de N de 1 a 10.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero, i : inteiro
+Inicio
+      escreval("Insira um n�mero para saber sua tabuada at� 10")
+      leia(numero)
+      para i de 1 ate 10 faca
+           escreval(numero*i)
+      fimpara
+
+
+Fimalgoritmo
