@@ -1,0 +1,18 @@
+Algoritmo "bloco1--exercicio5"
+// Disciplina   : [Linguagem e L gica de Programa  o]
+// Professor   : Gabriel Sena
+// Descri  o   : Leia largura e comprimento de um ret ngulo e informe a  rea e o per metro.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   largura,comprimento,area,perimetro: real
+Inicio
+      escreval("Insira a largura do ret ngulo: ")
+      leia(largura)
+      escreval("Insira o comprimento do ret ngulo: ")
+      leia(comprimento)
+      area <- largura*comprimento
+      perimetro <- (largura*2)+(comprimento*2)
+      escreval("A  rea do ret ngulo  :", area)
+      escreval("O perimetro do ret ngulo  :", perimetro)
+Fimalgoritmo
