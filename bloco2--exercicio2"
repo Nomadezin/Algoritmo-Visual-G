@@ -1,0 +1,16 @@
+Algoritmo "bloco2--exercicio2"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia a dist�ncia percorrida e o combust�vel gasto. Calcule o consumo m�dio em km por litro.
+// Autor(a)    :Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   distancia,gasto,consumo_medio : real
+Inicio
+      escreval("Insira a dist�ncia percorrida em quilometros:")
+      leia(distancia)
+      escreval("Insira o combust�vel gasto em litros:")
+      leia(gasto)
+      consumo_medio <- distancia/gasto
+      escreval("O consumo m�dio de Km/L �", consumo_medio)
+Fimalgoritmo
