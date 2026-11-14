@@ -1,0 +1,19 @@
+Algoritmo "bloco6--exercicio37"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia um n�mero N e some todos os m�ltiplos de 3 entre 1 e N.
+// Autor(a)    :Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero,soma,i : inteiro
+Inicio
+      escreval("Insira um valor para saber a soma dos m�ltiplos de 3 de 1")
+      escreval("at� ele")
+      leia(numero)
+      para i de 1 ate numero faca
+           se (i%3=0) entao
+              soma<-soma+i
+           fimse
+      fimpara
+      escreval("A soma dos n�meros m�ltiplos de 1 ate",numero," �", soma)
+Fimalgoritmo
