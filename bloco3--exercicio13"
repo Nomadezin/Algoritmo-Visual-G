@@ -1,0 +1,17 @@
+Algoritmo "bloco3--exercicio13"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia um n�mero inteiro e informe se ele � par ou �mpar.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero : inteiro
+Inicio
+      escreval("Insira um n�mero para saber se ele � par ou �mpar:")
+      leia(numero)
+      se (numero%2=0) entao
+         escreval("O n�mero", numero, " � par.")
+      senao
+           escreval("O n�mero", numero, " � �mpar.")
+      fimse
+Fimalgoritmo
