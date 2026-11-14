@@ -1,0 +1,29 @@
+Algoritmo "bloco4--exercicio22"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia tres lados e verifique se formam um tri�ngulo. Se formarem, classifique como equil�tero, is�sceles ou escaleno.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   lado1,lado2,lado3 : real
+Inicio
+      escreval("Insira o valor do primeiro lado")
+      leia(lado1)
+      escreval("Insira o valor do segundo lado")
+      leia(lado2)
+      escreval("Insira o valor do terceiro lado")
+      leia(lado3)
+      se (lado1<lado2+lado3) e (lado2<lado1+lado3) e (lado3<lado2+lado1) entao
+         se (lado1=lado2) e (lado2=lado3) entao
+            escreval("Os valores formam um tr�ngulo equil�tero.")
+         senao
+              se (lado1=lado2) ou (lado2=lado3) entao
+                 escreval("Os valores formam um tr�ngulo is�celes.")
+              senao
+                   escreval("Os valores formam um tr�ngulo escaleno.")
+              fimse
+         fimse
+      senao
+           escreval("Os valores inseridos n�o formam um tri�ngulo.")
+      fimse
+Fimalgoritmo
