@@ -1,0 +1,24 @@
+Algoritmo "bloco7--exercicio40"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia 10 n�meros em um vetor e informe o maior e sua posi��o.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero,i,maior,posicao : inteiro
+   mat : vetor[1..10] de inteiro
+Inicio
+      escreval("Insira dez valores")
+      maior<-0
+      para i de 1 ate 10 faca
+           leia(numero)
+           mat[i]<-numero
+      fimpara
+      para i de 1 ate 10 faca
+            se (mat[i]>maior) entao
+               maior<-mat[i]
+               posicao<-i
+            fimse
+      fimpara
+      escreval("O maior n�mero �",maior," na posi��o",posicao)
+Fimalgoritmo
