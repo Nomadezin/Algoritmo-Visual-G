@@ -1,0 +1,18 @@
+Algoritmo "bloco6--exercicio36"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia um n�mero N e mostre todos os n�meros pares de 0 at� N.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   numero,i : inteiro
+Inicio
+      escreval("Insira um valor para saber os n�meros pares de 0 at� ele")
+      leia(numero)
+      escreval("Os n�meros pares de 0 at�",numero," s�o:")
+      para i de 0 ate numero faca
+           se (i%2=0) entao
+              escreval(i)
+           fimse
+      fimpara
+Fimalgoritmo
