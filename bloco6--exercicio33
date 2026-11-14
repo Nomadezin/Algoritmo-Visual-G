@@ -1,0 +1,16 @@
+Algoritmo "bloco6--exercicio33"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Gabriel Sena
+// Descri��o   : Leia uma nota e repita a leitura enquanto ela estiver fora do intervalo de 0 a 10.
+// Autor(a)    : Enzo Cainelli
+// Data atual  : 14/11/2026
+Var
+   nota : real
+Inicio
+      escreval("Insira a nota no intervalo de 0 a 10,")
+      escreval("para sair digite um n�mero fora do intervalo")
+      leia(nota)
+      enquanto (nota>=0) e (nota<=10) faca
+               leia(nota)
+      fimenquanto
+Fimalgoritmo
